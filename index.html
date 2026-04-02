@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>ICML 2026 Workshop on AI for Physics</title>
+  <meta content="ICML 2026 Workshop on AI for Physics, Seoul, South Korea." name="description">
+  <meta content="ICML 2026, AI for Physics, AI4Science, scientific machine learning, physics, workshop" name="keywords">
+
+  <link href="https://icml.cc/static/core/img/ICML-logo.svg" rel="icon">
+  <link href="https://icml.cc/static/core/img/ICML-logo.svg" rel="apple-touch-icon">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&amp;family=Raleway:wght@400;500;700;800&amp;display=swap" rel="stylesheet">
+
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <link rel="preload" href="assets/vendor/bootstrap-icons/bootstrap-icons.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet"></noscript>
+
+  <link rel="preload" href="assets/vendor/aos/aos.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link href="assets/vendor/aos/aos.css" rel="stylesheet"></noscript>
+
+  <style>
+    #topic summary {
+      cursor: pointer;
+      list-style: none;
+      position: relative;
+      padding-left: 1.2em;
+    }
+
+    #topic summary::-webkit-details-marker {
+      display: none;
+    }
+
+    #topic details > summary::before {
+      content: '▶';
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+
+    #topic details[open] > summary::before {
+      content: '▼';
+    }
+
+    #topic details > summary b {
+      display: inline-block;
+    }
+
+    #cfp,
+    #topic,
+    #organizers,
+    #sponsors {
+      content-visibility: auto;
+      contain-intrinsic-size: 1000px 1px;
+    }
+
+    #organizers .organizer-photo {
+      width: 100%;
+      aspect-ratio: 1 / 1;
+      object-fit: cover;
+      object-position: center;
+      display: block;
+    }
+
+    #organizers .speaker p {
+      margin-bottom: 8px;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <header id="header" class="d-flex align-items-center">
+    <div class="container-fluid container-xxl d-flex align-items-center">
+
+      <div id="logo" class="me-auto">
+        <a href="index.html" class="scrollto">
+          <img src="https://icml.cc/static/core/img/icml-navbar-logo.svg" alt="ICML 2026" title="ICML 2026"
+               width="160" height="40" style="height:auto" decoding="async">
+        </a>
+      </div>
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#topic">Topics</a></li>
+          <li><a class="nav-link scrollto" href="#cfp">Call for Papers</a></li>
+          <li><a class="nav-link scrollto" href="#organizers">Organizers</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <section id="hero" style="background: url(assets/img/hero-seoul.jpg) center center / cover no-repeat;">
+    <div class="hero-container" data-aos="zoom-in" data-aos-delay="200">
+      <h1 class="mb-4 pb-0" style="text-transform: none;">
+        ICML 2026 Workshop on AI for Physics
+      </h1>
+      <p class="mb-4 pb-0" style="font-size: 30px; color: #ffffff;">
+        Seoul, South Korea
+      </p>
+    </div>
+  </section>
+
+  <main id="main">
+
+    <section id="about">
+      <div class="container position-relative" data-aos="fade-up">
+        <div class="row">
+          <div class="col-lg-12">
+            <h2>About the Workshop</h2>
+            <p style="font-size: 18px;">
+              AI is becoming an important part of modern physics, from scientific reasoning and simulation to inference and experimental control, yet relevant work is often spread across different research communities. AI4Physics brings together researchers from machine learning and physics to discuss emerging methods, shared challenges, and promising directions for AI-driven physics research. The workshop takes a broad view of both AI and physics, welcoming work across computational, theoretical, and experimental settings, including high-energy physics, astrophysics and cosmology, condensed matter, plasma and fusion, and quantum science. Topics include reasoning with language models and agents, generative and surrogate simulators, inverse problems and scientific inference, and data-efficient experimentation. Our goal is to build a venue for exchanging ideas across subfields, highlighting real scientific use cases, and identifying the tools, benchmarks, and evaluation practices needed for reliable and physically grounded AI systems.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="topic" class="section-with-bg">
+      <br>
+      <br>
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>Topics</h2>
+          <p>The workshop will cover a range of topics, including but not limited to:</p>
+        </div>
+        <section id="topics">
+          <div class="container">
+            <div class="topic-panel interactive-panel p-4 border shadow-sm rounded" style="background: #ffffff;">
+              <details>
+                <summary><b style="font-size: 18px; color: #343a40;">Physics-centric Scientific Reasoning with LLMs and Agents</b></summary>
+                <p style="color: #6c757d; margin-top: 10px;">
+                  We will explore how well today’s LLMs and autonomous agents can generate physically consistent, rigorously testable hypotheses; derive predictions with correct assumptions, units, and constraints; and interpret outcomes from simulations or experiments. The workshop will discuss common failure modes in physics reasoning and enabling directions such as tool-augmented agents, retrieval over scientific papers and code, and structured memory for multi-step derivations and verification.
+                </p>
+              </details>
+
+              <hr>
+
+              <details>
+                <summary><b style="font-size: 18px; color: #343a40;">High-fidelity Generative and Surrogate Simulators for Physics</b></summary>
+                <p style="color: #6c757d; margin-top: 10px;">
+                  This topic focuses on learning-based simulators and emulators for complex physical processes, including PDE-governed dynamics, turbulence, plasma systems, cosmology, and detector-level simulation. We highlight neural operators, physics-constrained generative models, differentiable simulators, hybrid solvers, and error-controlled emulation strategies in challenging regimes such as long-horizon rollouts, stiff dynamics, multiscale coupling, and rare events.
+                </p>
+              </details>
+
+              <hr>
+
+              <details>
+                <summary><b style="font-size: 18px; color: #343a40;">Inverse Problems and Systematic Inference</b></summary>
+                <p style="color: #6c757d; margin-top: 10px;">
+                  We focus on recovering physical parameters, fields, or latent states from indirect measurements through forward models, often involving simulators. The workshop will cover likelihood-free and simulation-based inference, differentiable and amortized inference, inverse design, and methods for handling nuisance parameters, calibration errors, selection effects, and simulation-measurement mismatch.
+                </p>
+              </details>
+
+              <hr>
+
+              <details>
+                <summary><b style="font-size: 18px; color: #343a40;">World Models, Extrapolation, and Transfer Across Regimes</b></summary>
+                <p style="color: #6c757d; margin-top: 10px;">
+                  This topic studies learned, stateful models of physical systems that map multimodal observations to compact latent representations and predict dynamics under partial observability. We emphasize extrapolation to unseen regimes, transfer from simulation to experiment, and hybrid approaches that combine physical structure with data-driven representations, with evaluation centered on out-of-distribution reliability.
+                </p>
+              </details>
+
+              <hr>
+
+              <details>
+                <summary><b style="font-size: 18px; color: #343a40;">Experimental Data Scarcity, Bias, and Dataset-building for Physics</b></summary>
+                <p style="color: #6c757d; margin-top: 10px;">
+                  We highlight physics areas that lack large, standardized, and openly accessible resources, and aim to catalyze community efforts in dataset creation, benchmark design, and reproducible evaluation. We will discuss synthetic data with controllable realism, weak supervision, targeted data acquisition, active learning, adaptive measurement, and autonomous experimentation.
+                </p>
+              </details>
+            </div>
+          </div>
+        </section>
+      </div>
+      <br>
+      <br>
+    </section>
+
+    <section id="cfp">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>Call For Papers</h2>
+        </div>
+
+        <h3>Key Dates</h3>
+        <ul class="fa-ul">
+          <li><b>Submission Deadline</b>: April 24, 2026 (AoE)</li>
+          <li><b>Reviews Due</b>: May 10, 2026 (AoE)</li>
+          <li><b>Decision Notification</b>: May 15, 2026 (AoE)</li>
+          <li><b>Camera-Ready Due</b>: May 22, 2026 (AoE)</li>
+        </ul>
+        <p>
+          All deadlines follow the
+          <a href="https://time.is/Anywhere_on_Earth" target="_blank" rel="noopener noreferrer">Anywhere on Earth (AoE)</a>
+          timezone.
+        </p>
+
+        <h3>Submission Site</h3>
+        <p>
+          The submission site and OpenReview venue will be announced soon and linked here once public.
+        </p>
+
+        <h3>Review Policy</h3>
+        <p>
+          We plan to run a double-blind review process. Accepted papers will follow a non-archival workshop policy.
+        </p>
+
+        <h3>Formatting</h3>
+        <p>
+          We expect submissions to use the ICML 2026 style files. Final formatting details and page-limit instructions will be posted together with the submission site.
+        </p>
+
+        <h3>Dual Submission and Non-Archival Policy</h3>
+        <p>
+          Submissions under review at other venues are expected to comply with the dual-submission and anonymity policies of those venues. Accepted workshop papers will not appear in formal archival proceedings.
+        </p>
+      </div>
+    </section>
+
+    <section id="organizers" class="section-with-bg">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>Organizers</h2>
+          <p>This workshop is organized by</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+            <div class="speaker" style="text-align: center;">
+              <img src="assets/img/organizers/square/john-sous.jpg" alt="John Sous" class="img-fluid organizer-photo" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='assets/img/placeholders/person.svg'">
+              <div style="margin-top: 8px;"><a href="https://sous.yale.edu/profile/john-sous" target="_blank" rel="noopener noreferrer" style="font-size: 1.1em; color: #00356B;">John Sous</a></div>
+              <p>Yale</p>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+            <div class="speaker" style="text-align: center;">
+              <img src="assets/img/organizers/square/arman-cohan.jpg" alt="Arman Cohan" class="img-fluid organizer-photo" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='assets/img/placeholders/person.svg'">
+              <div style="margin-top: 8px;"><a href="https://armancohan.com/" target="_blank" rel="noopener noreferrer" style="font-size: 1.1em; color: #00356B;">Arman Cohan</a></div>
+              <p>Yale</p>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+            <div class="speaker" style="text-align: center;">
+              <img src="assets/img/organizers/square/xiangliang-zhang.png" alt="Xiangliang Zhang" class="img-fluid organizer-photo" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='assets/img/placeholders/person.svg'">
+              <div style="margin-top: 8px;"><a href="https://sites.nd.edu/xiangliang-zhang/" target="_blank" rel="noopener noreferrer" style="font-size: 1.1em; color: #00356B;">Xiangliang Zhang</a></div>
+              <p>Notre Dame</p>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+            <div class="speaker" style="text-align: center;">
+              <img src="assets/img/organizers/square/anna-gilbert.jpg" alt="Anna Gilbert" class="img-fluid organizer-photo" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='assets/img/placeholders/person.svg'">
+              <div style="margin-top: 8px;"><a href="https://annacgilbert.github.io/" target="_blank" rel="noopener noreferrer" style="font-size: 1.1em; color: #00356B;">Anna Gilbert</a></div>
+              <p>Yale</p>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+            <div class="speaker" style="text-align: center;">
+              <img src="assets/img/organizers/square/hao-peng.jpg" alt="Hao Peng" class="img-fluid organizer-photo" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='assets/img/placeholders/person.svg'">
+              <div style="margin-top: 8px;"><a href="https://haopeng-nlp.github.io/" target="_blank" rel="noopener noreferrer" style="font-size: 1.1em; color: #00356B;">Hao Peng</a></div>
+              <p>UIUC</p>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+            <div class="speaker" style="text-align: center;">
+              <img src="assets/img/organizers/square/eliu-a-huerta.png" alt="Eliu A. Huerta" class="img-fluid organizer-photo" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='assets/img/placeholders/person.svg'">
+              <div style="margin-top: 8px;"><a href="https://www.anl.gov/profile/eliu-a-huerta" target="_blank" rel="noopener noreferrer" style="font-size: 1.1em; color: #00356B;">Eliu A. Huerta</a></div>
+              <p>Argonne &amp; UChicago</p>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+            <div class="speaker" style="text-align: center;">
+              <img src="assets/img/organizers/square/grant-rotskoff.jpg" alt="Grant M. Rotskoff" class="img-fluid organizer-photo" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='assets/img/placeholders/person.svg'">
+              <div style="margin-top: 8px;"><a href="https://statmech.stanford.edu/" target="_blank" rel="noopener noreferrer" style="font-size: 1.1em; color: #00356B;">Grant M. Rotskoff</a></div>
+              <p>Stanford</p>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+            <div class="speaker" style="text-align: center;">
+              <img src="assets/img/organizers/square/eun-ah-kim.jpg" alt="Eun-Ah Kim" class="img-fluid organizer-photo" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='assets/img/placeholders/person.svg'">
+              <div style="margin-top: 8px;"><a href="https://eunahkim.ccmr.cornell.edu/" target="_blank" rel="noopener noreferrer" style="font-size: 1.1em; color: #00356B;">Eun-Ah Kim</a></div>
+              <p>Cornell</p>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+            <div class="speaker" style="text-align: center;">
+              <img src="assets/img/organizers/square/yilun-zhao.jpeg" alt="Yilun Zhao" class="img-fluid organizer-photo" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='assets/img/placeholders/person.svg'">
+              <div style="margin-top: 8px;"><a href="https://yilunzhao.github.io/" target="_blank" rel="noopener noreferrer" style="font-size: 1.1em; color: #00356B;">Yilun Zhao</a></div>
+              <p>Yale</p>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+            <div class="speaker" style="text-align: center;">
+              <img src="assets/img/placeholders/person.svg" alt="Andy Liu" class="img-fluid organizer-photo" loading="lazy" decoding="async">
+              <div style="margin-top: 8px;"><span style="font-size: 1.1em; color: #00356B;">Andy Liu</span></div>
+              <p>Yale</p>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+            <div class="speaker" style="text-align: center;">
+              <img src="assets/img/organizers/square/minyang-tian.jpeg" alt="Minyang Tian" class="img-fluid organizer-photo" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='assets/img/placeholders/person.svg'">
+              <div style="margin-top: 8px;"><a href="https://scholar.google.com/citations?user=Bzl5qN8AAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer" style="font-size: 1.1em; color: #00356B;">Minyang Tian</a></div>
+              <p>UIUC</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main><!-- End #main -->
+
+  <!-- ======= Sponsors Section ======= -->
+  <section id="sponsors" class="section-with-bg">
+    <div class="container">
+      <div class="section-header">
+        <h2>Sponsors</h2>
+      </div>
+      <div class="row mt-4">
+        <div class="col-12 text-center">
+          <p><em>We welcome sponsorship opportunities. To become a sponsor, please contact us (John Sous: <a href="mailto:john.sous@yale.edu">john.sous@yale.edu</a>).</em></p>
+        </div>
+      </div>
+    </div>
+  </section><!-- End Sponsors Section -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        <!-- &copy; Copyright <strong>TheEvent</strong>. All Rights Reserved -->
+      </div>
+      <div class="credits">
+        Template adopted from <a href="https://workshop-llm-reasoning-planning.github.io/" target="_blank" rel="noopener noreferrer">Reasoning and Planning for Large Language Models @ ICLR 2025</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center" aria-label="Back to top"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files (deferred for faster first paint) -->
+  <script src="assets/vendor/aos/aos.js" defer></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js" defer></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js" defer></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js" defer></script>
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js" defer></script>
+
+  <!-- ======= Lazy-load flag counter after full load to avoid blocking ======= -->
+  <script>
+    window.addEventListener('load', function () {
+      const a = document.createElement('a');
+      a.href = 'https://info.flagcounter.com/fIO5';
+      a.rel = 'noopener noreferrer';
+      a.target = '_blank';
+      a.innerHTML = '<img src="https://s05.flagcounter.com/count2/fIO5/bg_FFFFFF/txt_000000/border_CCCCCC/columns_6/maxflags_20/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0" width="480" height="80" loading="lazy" decoding="async">';
+      document.body.appendChild(a);
+    });
+  </script>
+
+</body>
+
+</html>

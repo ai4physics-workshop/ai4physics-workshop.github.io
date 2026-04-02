@@ -1,1 +1,1 @@
-# ai4physics-workshop.github.io
+# AI4Physics Workshop Website

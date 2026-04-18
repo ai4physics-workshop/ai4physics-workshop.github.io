@@ -207,3 +207,20 @@ SITE_PLAN_AND_INPUTS.md
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# macOS
+.DS_Store
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.out
+*.log
+*.toc
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+latex_template/*.sty
+latex_template/*.bst
+latex_template/icml_numpapers.pdf

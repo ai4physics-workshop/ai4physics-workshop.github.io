@@ -224,3 +224,15 @@ __marimo__/
 latex_template/*.sty
 latex_template/*.bst
 latex_template/icml_numpapers.pdf
+openreview/*
+openreview_decision/
+
+# Internal email drafts (contain unpublished stats / templates)
+accept.txt
+reject.txt
+message.txt
+reply.txt
+
+# macOS accidental copies
+*\ copy.png
+*\ copy.jpg

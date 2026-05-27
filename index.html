@@ -96,6 +96,7 @@
           <li><a class="nav-link scrollto" href="#about">About</a></li>
           <li><a class="nav-link scrollto" href="#topic">Topics</a></li>
           <li><a class="nav-link scrollto" href="#speakers">Speakers &amp; Panelists</a></li>
+          <li><a class="nav-link scrollto" href="#accepted-paper">Accepted Papers</a></li>
           <li><a class="nav-link scrollto" href="#cfp">Call for Papers</a></li>
           <li><a class="nav-link scrollto" href="#organizers">Organizers</a></li>
         </ul>
@@ -259,6 +260,37 @@
       </div>
     </section>
 
+    <!-- ======= Accepted Papers ======= -->
+    <section id="accepted-paper" class="section-with-bg">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>Accepted Papers</h2>
+        </div>
+
+        <div class="accepted-stats" style="background:#f8f9fa;border-left:4px solid #00008B;padding:16px 22px;margin-bottom:28px;border-radius:4px;">
+          <div style="display:flex;flex-wrap:wrap;gap:24px 36px;justify-content:space-around;align-items:center;text-align:center;">
+            <div>
+              <div style="font-size:1.8em;font-weight:700;color:#00008B;">194</div>
+              <div style="font-size:0.9em;color:#555;">Submissions</div>
+            </div>
+            <div>
+              <div style="font-size:1.8em;font-weight:700;color:#00008B;">99</div>
+              <div style="font-size:0.9em;color:#555;">Accepted (~51%)</div>
+            </div>
+            <div>
+              <div style="font-size:1.8em;font-weight:700;color:#00008B;">97.8% <span style="font-size:0.6em;color:#666;">/</span> 73.3%</div>
+              <div style="font-size:0.9em;color:#555;">Submissions with &ge;2 / &ge;3 reviews</div>
+            </div>
+          </div>
+        </div>
+
+        <div id="poster-presentations">
+          <ul id="posterList"></ul>
+        </div>
+      </div>
+    </section>
+    <!-- End Accepted Papers -->
+
     <section id="cfp">
       <div class="container" data-aos="fade-up">
         <div class="section-header">
@@ -268,7 +300,7 @@
         <h3>Key Dates</h3>
         <ul class="fa-ul">
           <li><b>Submission Deadline</b>: <s>April 24, 2026 (AoE)</s> <span style="color: #00008B;">Extended to May 7, 2026 (AoE)</span></li>
-          <li><b>Reviews Due</b>: May 21, 2026 (AoE)</li>
+          <li><b>Reviews Due</b>: May 23, 2026 (AoE)</li>
           <li><b>Decision Notification</b>: May 25, 2026 (AoE)</li>
           <li><b>Camera-Ready Due</b>: May 30, 2026 (AoE)</li>
         </ul>
@@ -452,7 +484,36 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js" defer></script>
 
-
+  <!-- ======= Accepted Papers: load on page load ======= -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const list = document.getElementById('posterList');
+      if (!list) return;
+      fetch('accepted_paper.json')
+        .then(function (r) { return r.json(); })
+        .then(function (data) {
+          const notes = (data && data.notes) ? data.notes : [];
+          notes.forEach(function (item) {
+            const title = item && item.content && item.content.title ? (item.content.title.value || 'Untitled') : 'Untitled';
+            const authorsVal = item && item.content && item.content.authors ? item.content.authors.value : [];
+            const authors = Array.isArray(authorsVal) ? authorsVal.join(', ') : (authorsVal || '');
+            const li = document.createElement('li');
+            if (title.includes('<br><i>')) {
+              const parts = title.split('<br>');
+              const awardText = parts.slice(1).join('<br>').replace(/<i>/g, '<i style="color: #B8860B;">');
+              li.innerHTML = '<b>' + parts[0] + '</b><br>' + awardText + '<br>' + authors;
+            } else {
+              li.innerHTML = '<b>' + title + '</b><br>' + authors;
+            }
+            list.appendChild(li);
+            list.appendChild(document.createElement('br'));
+          });
+        })
+        .catch(function (err) {
+          console.error('Error loading accepted_paper.json:', err);
+        });
+    });
+  </script>
 
 </body>
 

@@ -1,0 +1,1558 @@
+{
+  "notes": [
+    {
+      "content": {
+        "title": {
+          "value": "ChemHyperMag: Physics-informed magnetic hypergraph learning improves molecular ADMET prediction"
+        },
+        "authors": {
+          "value": [
+            "Hexiao Ding",
+            "Hongzhao Chen",
+            "Jing Lan",
+            "Yufeng Jiang",
+            "Zihong Luo",
+            "Zehua Xiong",
+            "Tianlong Ruan",
+            "Yunlin Mao",
+            "Nga Chun Ng",
+            "Gwing Kei Yip",
+            "Gerald W.Y. Cheng",
+            "Kate Inyoung OH",
+            "Jing Cai",
+            "Liang-Ting Lin",
+            "Jung Sun Yoo"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "StarEmbed: Benchmarking Time Series Foundation Models on Astronomical Observations of Variable Stars"
+        },
+        "authors": {
+          "value": [
+            "Weijian Li",
+            "Hong-Yu Chen",
+            "Nabeel Rehemtulla",
+            "Ved G. Shah",
+            "Dongho Kim",
+            "Dennis Wu",
+            "Qinjie Lin",
+            "Adam A. Miller",
+            "Han Liu"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "Generative Priors Accelerate Inverse Design for Regularized, High Performance Integrated Photonics"
+        },
+        "authors": {
+          "value": [
+            "Taehan Kim",
+            "Junho Park",
+            "Mohammad Ali",
+            "SooHyuk Cho",
+            "Di Liang"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "Koopman Operator Enhanced 3D Voxcel Auto-Encoder to Predict 3D Seismic Waves Propagation"
+        },
+        "authors": {
+          "value": [
+            "Takayuki Shinohara"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "Mat-Pref: Verifiable-Reward Training Improves Compositional Reasoning in Inorganic Materials"
+        },
+        "authors": {
+          "value": [
+            "Sarrah Mikhail Leung",
+            "Taehan Kim",
+            "Jeongbin Park"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "Taming Gradient Perturbations: Probabilistic Reparameterization for Robust Physics-Informed MRI Protocol Optimization"
+        },
+        "authors": {
+          "value": [
+            "Beomgu Kang",
+            "Hye Young Heo",
+            "Hyunseok Seo"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "PLAID: A Unified Data Model for Machine Learning on Heterogeneous Physics Simulations"
+        },
+        "authors": {
+          "value": [
+            "Fabien Casenave",
+            "Xavier Roynard",
+            "Brian Staber",
+            "Alexandre Devaux-Rivière",
+            "William PIAT",
+            "Michele Alessandro Bucci",
+            "Nissrine Akkari",
+            "Abbas Kabalan",
+            "Xuan Minh Vuong Nguyen",
+            "Luca Saverio",
+            "Raphael Carpintero Perez",
+            "Anthony Kalaydjian",
+            "Samy Fouché",
+            "Thierry Gonon",
+            "Ghassan Najjar",
+            "Thomas Daniel",
+            "Emmanuel Menier",
+            "Matthieu Nastorg",
+            "Giovanni Catalani",
+            "Christian Rey"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "Microlensing Detection and Inference via Learned Bayes Factors"
+        },
+        "authors": {
+          "value": [
+            "Nolan Smyth",
+            "Laurence Perreault-Levasseur",
+            "Yashar Hezaveh"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "Data-Driven Transport Geometry for Rare Events in Metastable Systems"
+        },
+        "authors": {
+          "value": [
+            "Victor Kawasaki-Borruat",
+            "Pierre Vandergheynst"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "Efficient Surrogate Modeling for Fast Hydrodynamic Evolution of the Quark-Gluon Plasma"
+        },
+        "authors": {
+          "value": [
+            "Seungjun Lee",
+            "Yeonju Go",
+            "Bjoern Schenke",
+            "Chun Shen",
+            "Yihui Ren",
+            "Jin Huang",
+            "Maria Chamizo-Llatas"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "Learning Pore-scale Multiphase Flow from 4D Velocimetry"
+        },
+        "authors": {
+          "value": [
+            "Chunyang Wang",
+            "Linqi Zhu",
+            "Yuxuan Gu",
+            "Robert van der Merwe",
+            "Xin Ju",
+            "Catherine Spurin",
+            "Samuel Krevor",
+            "Rex Ying",
+            "Tobias Pfaff",
+            "Martin J Blunt",
+            "Tom Bultreys",
+            "Gege Wen"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "Revisiting the Form of Attention with Positional Encoding for Molecular Structures"
+        },
+        "authors": {
+          "value": [
+            "Yusei Ito",
+            "Aidar Alimbayev",
+            "Klea Ziu",
+            "Deepak Kumar",
+            "Kanta Ono",
+            "Martin Takáč"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "FlowForge: A Staged Local Rollout Engine for Flow Field Prediction"
+        },
+        "authors": {
+          "value": [
+            "Xiaowen Zhang",
+            "Ziming Zhou",
+            "Fengnian Zhao",
+            "David L.S. Hung"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "Loss Landscape Diagnostics for Gradient-Based Inversion of the Gray-Scott System: Geometric Implications for PINN Design"
+        },
+        "authors": {
+          "value": [
+            "Yan Yang"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "GC-500K: A Physics-Consistent Large-Scale Benchmark Dataset for Grating Coupler Design"
+        },
+        "authors": {
+          "value": [
+            "Rahul D Ray",
+            "Ravikiran Yeleswarapu",
+            "Anuvansh Gera"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "Alpha-RF: Automated RF-Filter-Circuit Design with Neural Simulator and Reinforcement Learning"
+        },
+        "authors": {
+          "value": [
+            "Nhat Tran",
+            "Chenjie Hao",
+            "Alexander Stameroff",
+            "Anh-Vu Pham",
+            "Yubei Chen"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "Harmonic Sampling: Zero-Parameter Flows on Compact Manifolds"
+        },
+        "authors": {
+          "value": [
+            "Isay Katsman",
+            "Anna Gilbert"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "QuantumLean-Bench: A Unified Benchmark for Informal and Formal Quantum Reasoning"
+        },
+        "authors": {
+          "value": [
+            "Isha Goswami",
+            "Anushka Paulchoudhury",
+            "Robert Joseph George",
+            "Anima Anandkumar"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "Deep Ritz Neural Operator for Dendritic Growth via Energy Splitting"
+        },
+        "authors": {
+          "value": [
+            "Chih-Kang Huang",
+            "Miha Založnik",
+            "Ludovick Gagnon",
+            "Benoît Appolaire"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "Contrastive Image-Metadata Pre-Training for Materials Transmission Electron Microscopy"
+        },
+        "authors": {
+          "value": [
+            "Georgia Channing",
+            "Debora Keller",
+            "Marta D. Rossell",
+            "Philip Torr",
+            "Stig Helveg",
+            "Henrik Eliasson"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "MōLe-Λ: Learning the Coupled-Cluster Response State for Energies, Gradients, and Properties"
+        },
+        "authors": {
+          "value": [
+            "Andreas Burger",
+            "Luca Thiede",
+            "Abdulrahman Aldossary",
+            "Jorge A. Campos-Gonzalez-Angulo",
+            "Alex Zook",
+            "Jérôme Florian Gonthier",
+            "Alan Aspuru-Guzik"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "Strong Gravitational Lensing Posterior Sampling in Pixel-Space Using Diffusion Models and Recurrent Inference Machines"
+        },
+        "authors": {
+          "value": [
+            "Guillaume Payeur",
+            "Laurence Perreault-Levasseur",
+            "Gabriel Missael Barco",
+            "Yashar Hezaveh"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "Interpreting the Synchronization Gap: The Hidden Mechanism Inside Diffusion Transformers"
+        },
+        "authors": {
+          "value": [
+            "Viola Zixin Zhao",
+            "Emil Albrychiewicz",
+            "Andrés Franco Valiente",
+            "Li-Ching Chen"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "PAINT: Parallel-in-time Neural Twins for Dynamical System Reconstruction"
+        },
+        "authors": {
+          "value": [
+            "Andreas Radler",
+            "Vincent Seyfried",
+            "Johannes Brandstetter",
+            "Thomas Lichtenegger"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "PRISM: Position-encoded Regressive Inverse Spectral Model for Multilayer Thin-Film Design"
+        },
+        "authors": {
+          "value": [
+            "Runtian Wang",
+            "Renhao Xue",
+            "Baige Chen",
+            "Hao Wu"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "Semigroup Consistency as a Diagnostic for Learned Physics Simulators"
+        },
+        "authors": {
+          "value": [
+            "Lennon J. Shikhman"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "QMP-Bench: A Research-Level Benchmark for Autonomous End-to-End Quantum Many-Body Simulations"
+        },
+        "authors": {
+          "value": [
+            "Ken Deng",
+            "Xiangfei Wang",
+            "Guijing Duan",
+            "Chen Mo",
+            "Junkun Huang",
+            "Runqing Zhang",
+            "Ling Qian",
+            "Zhiguo Huang",
+            "Jize Han",
+            "Di Luo"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "Plausible but Wrong: A Case Study on Agentic Failures in Astrophysical Workflows"
+        },
+        "authors": {
+          "value": [
+            "Shivam Rawat"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "Bayesian Cosmic Void Finding with Graph Flows"
+        },
+        "authors": {
+          "value": [
+            "Leander Thiele"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "Learning Design Skills as Memory Policies for Agentic Photonic Inverse Design"
+        },
+        "authors": {
+          "value": [
+            "Shengchao Chen",
+            "Ting Shu",
+            "Sufen Ren"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "Bifurcation Preservation as a Physics Diagnostic for Neural Phase-Field Surrogates"
+        },
+        "authors": {
+          "value": [
+            "Alejandro Salinas-Medina",
+            "Anisleidy Gonzalez-Mitjans",
+            "Xue Liu"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "LLMs with in-context learning for Algorithmic Theoretical Physics"
+        },
+        "authors": {
+          "value": [
+            "Anamaria Hell",
+            "Leander Thiele"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "From Experiments to Expertise: Scientific Knowledge Consolidation for AI-Driven Computational Physics"
+        },
+        "authors": {
+          "value": [
+            "Haonan Huang"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "Signal-Preserving Cosmic Microwave Background Cleaning with Multi-Scale Learning"
+        },
+        "authors": {
+          "value": [
+            "helen shao",
+            "Fiona McCarthy",
+            "Miles Cranmer",
+            "Blake D. Sherwin"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "The Encoding-Learning Tradeoff in Scientific Machine Learning: A Risk-Asymmetric Study of Brusselator Reaction-Diffusion Forecasting"
+        },
+        "authors": {
+          "value": [
+            "Vejandla Sampath Kumar",
+            "Prathamesh Dinesh Joshi",
+            "Raj Dandekar",
+            "Rajat Dandekar",
+            "Sreedath Panat"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "Coupling-Robust Accuracy in Multiphysics PINNs via Kronecker-Preconditioned Optimization"
+        },
+        "authors": {
+          "value": [
+            "Youngjae Park",
+            "Jaemin Kim",
+            "Junghwa Hong"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "torch-sla: Differentiable Sparse Linear Algebra with Adjoint Solvers and Sparse Tensor Parallelism for PyTorch"
+        },
+        "authors": {
+          "value": [
+            "Mingyuan chi",
+            "Shizheng Wen"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "Amortized Simulation-Based Inference of Colliding-Wind Binaries from Short, Noisy Image Time Series"
+        },
+        "authors": {
+          "value": [
+            "Niklas Knöll",
+            "Tobias Buck",
+            "Lorenzo Branca",
+            "Giuseppe Viterbo"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "Spectral Bias in Variational Quantum Machine Learning"
+        },
+        "authors": {
+          "value": [
+            "Callum Duffy",
+            "Marcin Jastrzebski",
+            "Sarah Malik"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "Synthetic Physics as Supervision: Learning Real-World Physical Reasoning in Vision-Language Models"
+        },
+        "authors": {
+          "value": [
+            "Swastik R",
+            "Natesha B V"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "Spectrally Regularized Latent Flow Matching for Turbulence Generation"
+        },
+        "authors": {
+          "value": [
+            "Khalid Rafiq",
+            "Aditya G. Nair"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "Hierarchical Discovery of Adiabatic Hamiltonian Paths and RL Schedules for Quantum Linear System Solvers"
+        },
+        "authors": {
+          "value": [
+            "Wang chenglong"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "LLM-Guided Neural Architecture Search for Robust Co-Design of Physical Neural Networks"
+        },
+        "authors": {
+          "value": [
+            "Tyler King",
+            "Timothee Leleu"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "Trading off Controllability and Realism in Generative Physics Emulators"
+        },
+        "authors": {
+          "value": [
+            "Francesco Immorlano",
+            "Elijah Tavares",
+            "Felix Draxler",
+            "Juan Nathaniel",
+            "Violette Launeau",
+            "Padhraic Smyth",
+            "Pierre Gentine",
+            "Stephan Mandt"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "Self-Monitoring Warmup: Data-Driven Confidence Rectification for PINN Optimizers"
+        },
+        "authors": {
+          "value": [
+            "Giangiacomo Mercatali",
+            "Jie Chen",
+            "Alexandros Kalousis"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "When Does Critique Improve AI-Assisted Theoretical Physics? SCALAR: Structured Critic--Actor Loop for Agentic Reasoning"
+        },
+        "authors": {
+          "value": [
+            "Vasilis Niarchos",
+            "Constantinos Papageorgakis",
+            "Alexander G. Stapleton",
+            "Sokratis Trifinopoulos"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "Accelerating Posterior Inference from Pulsar Light Curves via Learned Latent Representations and Local Simulator-Guided Optimization"
+        },
+        "authors": {
+          "value": [
+            "Farhana Taiyebah",
+            "Abu Bucker Siddik",
+            "Indronil Bhattacharjee",
+            "Diane Oyen",
+            "Soumi De",
+            "Greg Olmschenk",
+            "Constantinos Kalapotharakos"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "Amortized Neural-Symbolic Inverse Dynamics: Robust and Invariant Parameter Inference via Latent Dynamics"
+        },
+        "authors": {
+          "value": [
+            "Matteo Rufolo",
+            "Dario Piga",
+            "Marco Forgione"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "Conservation-Constrained Fourier Neural Operators for Physically Consistent PDE Simulation"
+        },
+        "authors": {
+          "value": [
+            "Kabir Jain",
+            "Aayam Bansal",
+            "Ishaan Gangwani",
+            "Ziming Qiu",
+            "Raghav Agarwal"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "Towards a Physics Foundation Model"
+        },
+        "authors": {
+          "value": [
+            "Florian Wiesner",
+            "Zoë J. Gray",
+            "Matthias Wessling",
+            "Stephen Baek"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "LM-PIELM: A Lagrange-Multiplier Framework for Hard Constraint Enforcement in Physics-Informed Extreme Learning Machines for PDE-Governed Forward and Inverse Problems"
+        },
+        "authors": {
+          "value": [
+            "Eshan Kulkarni",
+            "Rishi Mishra",
+            "Balaji Srinivasan"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "Stargazer: A Scalable Model-fitting Benchmark Environment for AI Agents under Astrophysical Constraints"
+        },
+        "authors": {
+          "value": [
+            "Xinge Liu",
+            "Terry Jingchen Zhang",
+            "Bernhard Schölkopf",
+            "Zhijing Jin",
+            "Kristen Menou"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "Crystalite: A Lightweight Transformer for Efficient Crystal Modeling"
+        },
+        "authors": {
+          "value": [
+            "Tin Hadži Veljković",
+            "Joshua Rosenthal",
+            "Ivor Lončarić",
+            "Jan-Willem van de Meent"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "Probabilistic Data-Driven Modelling of Astrophysical Transients: The Neural Process Family for Ultrafast and Class-Agnostic Light Curve Reconstruction"
+        },
+        "authors": {
+          "value": [
+            "Siddharth Chaini",
+            "federica bianco",
+            "Ashish Mahabal"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "Learning Interface Breakup: A Geometry-Conditioned Latent Surrogate for Spray Formation"
+        },
+        "authors": {
+          "value": [
+            "Julius H Ramlau",
+            "Friedrich Hastedt",
+            "Tolga Birdal",
+            "Antonio Del rio chanona",
+            "Nausheen S Basha",
+            "Omar K Matar"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "PINNfluence: Interpreting PINNs through Influence Functions"
+        },
+        "authors": {
+          "value": [
+            "Aleksander Krasowski",
+            "Jonas Naujoks",
+            "Moritz Weckbecker",
+            "Galip Ümit Yolcu",
+            "Thomas Wiegand",
+            "Sebastian Lapuschkin",
+            "Wojciech Samek",
+            "René Pascal Klausen"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "Fluid-Gen-Zero: Grounding Pretrained Video Generators in Physics without Training"
+        },
+        "authors": {
+          "value": [
+            "Hong Huang",
+            "Yuqiu Liu",
+            "Chenyu You",
+            "Daniel F Martin",
+            "Chuhang Zou",
+            "Wuyang Chen"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "Generalization vs. Memorization in Partial Differential Equation Emulators: Or, Training Dynamics of Cross-Time and Cross-Class Gradient Alignment"
+        },
+        "authors": {
+          "value": [
+            "James Amarel",
+            "Nicolas Hengartner",
+            "Robyn Miller",
+            "Kamaljeet Singh",
+            "Siddharth Mansingh",
+            "Arvind Mohan",
+            "Benjamin Migliori",
+            "Emily Casleton",
+            "Alexei Skurikhin",
+            "Earl Lawrence",
+            "Gerd J. Kunde"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "NIGO: Lyapunov-Stable Continuous-Time Neural Operators for Long-Horizon PDE Dynamics"
+        },
+        "authors": {
+          "value": [
+            "Ashish M.",
+            "ajay waghumbare",
+            "VINDUJA T"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "LieSolver: PDE-Constrained Learning for IBVPs via Lie Symmetries"
+        },
+        "authors": {
+          "value": [
+            "René Pascal Klausen",
+            "Ivan Timofeev",
+            "Jonas Naujoks",
+            "Johannes Frank",
+            "Thomas Wiegand",
+            "Sebastian Lapuschkin",
+            "Wojciech Samek"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "Bounds on Extrapolation across Phase Transitions with Generalized Regression"
+        },
+        "authors": {
+          "value": [
+            "Jeffrey Wei",
+            "Manolis Zampetakis",
+            "John Sous"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "Wavelet Variance Equipartition as a Threshold for World-Model Quality and Quantum Kernel TN-Simulability"
+        },
+        "authors": {
+          "value": [
+            "Chon Fai Kam",
+            "Xavier Cadet",
+            "Miloud Bessaf",
+            "Frederic CADET"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "Learning to Trigger: Reinforcement Learning at Large Hadron Collider"
+        },
+        "authors": {
+          "value": [
+            "Zixin Ding",
+            "Shaghayegh Emami",
+            "Giovanna Salvi",
+            "Cecilia Tosciri",
+            "Abhijith Gandrakota",
+            "Ngadiuba Jennifer",
+            "Nhan Tran",
+            "Christian Herwig",
+            "David Miller",
+            "Yuxin Chen"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "Template Matching, Not Time Learning: A Diagnostic for Self-Supervised Light Curve Encoders"
+        },
+        "authors": {
+          "value": [
+            "Emma Chickles"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "Ion-Pot and Ion-Curr: Ion-Aware Benchmarks for Electrostatic Field and Observable Prediction in Complex Geometries"
+        },
+        "authors": {
+          "value": [
+            "Jingqian Liu",
+            "Pinhao Gu",
+            "Aleksei Aksimentiev"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "Text-Guided Diffusion Model for Adaptive Reconstruction through Scattering Media"
+        },
+        "authors": {
+          "value": [
+            "Fakhriyya Mammadova",
+            "Chanseok Lee",
+            "Mooseok Jang"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "Quality-Weighted Determinantal Point Processes for Sample Efficient DFT Surrogate Models"
+        },
+        "authors": {
+          "value": [
+            "Shirley X. Yu",
+            "Adji Bousso Dieng"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "QMaxCal: Path-Space Regularization for Open Quantum Control via Girsanov's Theorem"
+        },
+        "authors": {
+          "value": [
+            "Merijn Moody",
+            "Zier Mensch",
+            "Miranda C. N. Cheng",
+            "Peter G. Bolhuis",
+            "Max Welling"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "Deriving an Analytical Expression for the Rise of Type Ia Supernovae with Symbolic Regression and High Cadence data"
+        },
+        "authors": {
+          "value": [
+            "Mark Kanex",
+            "Qinan Wang"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "SNAP-FM: Sparse Nonlinear Accelerated Projection for Physics-Constrained Generative Modeling"
+        },
+        "authors": {
+          "value": [
+            "Alaina Kolli",
+            "Theodoros Xenakis",
+            "Utkarsh Utkarsh",
+            "Pengfei Cai",
+            "Rafael Gomez-Bombarelli",
+            "Alan Edelman",
+            "Christopher Vincent Rackauckas"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "QUIVER: Quantum-Informed Views for Enhanced Representations in Large ML Models"
+        },
+        "authors": {
+          "value": [
+            "Aritra Bal",
+            "Michael Binder",
+            "Markus Klute",
+            "Benedikt Maier",
+            "Michael Spannowsky"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "Hybrid Neural-MPM for Accelerated and Controllable Fluid Simulations"
+        },
+        "authors": {
+          "value": [
+            "Hong Huang",
+            "Jingxuan Xu",
+            "Chuhang Zou",
+            "Manolis Savva",
+            "Yunchao Wei",
+            "Wuyang Chen"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "How Much Memory Do We Need? Adaptive Memory Gate for Neural Operators"
+        },
+        "authors": {
+          "value": [
+            "Jihyeon Hur",
+            "Yongseok Kwon",
+            "Min-Gi Jo",
+            "Jeongwhan Choi",
+            "Noseong Park"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "Adaptive Interaction Graphs for Particle Simulation"
+        },
+        "authors": {
+          "value": [
+            "Aiden Zhou"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "21cmEMUv3: a Hybrid Diffusion-LSTM Emulator for Joint Inference of Cosmic Dawn and Reionisation"
+        },
+        "authors": {
+          "value": [
+            "Daniela Breitman"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "Equivariant Graph Neural Networks Improve Optical Spectra Prediction for Materials Screening"
+        },
+        "authors": {
+          "value": [
+            "Kasper Helverskov Petersen",
+            "François R J Cornet",
+            "Martin Ovesen",
+            "Mikkel Jordahn",
+            "Kristian S. Thygesen",
+            "Mikkel N. Schmidt"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "IKNO: Infinite-order Kernel Neural Operators"
+        },
+        "authors": {
+          "value": [
+            "Pengyuan Zhu",
+            "Ivor Tsang",
+            "Yueming Lyu"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "One More Time: Revisiting Neural Quantum States from a Reinforcement Learning Perspective"
+        },
+        "authors": {
+          "value": [
+            "Juan Agustin Duque",
+            "Sergio García-Heredia",
+            "Vinicius Hernandes",
+            "Eliska Greplova",
+            "Thomas Spriggs",
+            "Aaron Courville",
+            "Anna Dawid"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "Physics-Informed Neural PDE Solvers via Spatio-Temporal MeanFlow"
+        },
+        "authors": {
+          "value": [
+            "Hanru Bai",
+            "Yuncheng Zhou",
+            "Difan Zou"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "Beyond Equality: Inequality-Constrained Flow Matching for Physically Admissible Solutions"
+        },
+        "authors": {
+          "value": [
+            "Alfred Wei Lun Leong",
+            "Yatao Bian",
+            "Bryan Kian Hsiang Low"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "What Do Lorentz-Equivariant Jet Taggers Learn?"
+        },
+        "authors": {
+          "value": [
+            "Jay Agarwal",
+            "Siddharth Khare",
+            "Dhruv Kumar"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "Advancing and Evaluating AI Agent for Frontier Physics Research"
+        },
+        "authors": {
+          "value": [
+            "Tingjia Miao",
+            "Wenkai Jin",
+            "Jinxin Tan",
+            "Muhua Zhang",
+            "Xianghe Pang",
+            "Zexi Liu",
+            "Yuwen Du",
+            "Tian Jin",
+            "Tu Guo",
+            "Yuelin Hu",
+            "Zhengliang Zhang",
+            "Jingkun Liu",
+            "Jiejun Zhang",
+            "Yunjie Huang",
+            "Yinuo Gao",
+            "Yuhan Wang",
+            "Wenbo Li",
+            "Shuo Chen",
+            "Bingyang Zheng",
+            "Fengyang Li",
+            "Rui Ye",
+            "Yuzhi Zhang",
+            "Linfeng Zhang",
+            "Kun Chen",
+            "Wei Wang",
+            "Weinan E",
+            "Siheng Chen"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "GUINEAGRAD: A Differentiable Beam-Beam Interaction Simulator for Gradient-Based Collider Optimization"
+        },
+        "authors": {
+          "value": [
+            "Dimitrios Ntounis"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "Weight-Space Physics: Interpretable Hypernetworks for Lattice Quantum Field Theories"
+        },
+        "authors": {
+          "value": [
+            "Tobias Göbel",
+            "Julian R. Ebelt",
+            "Zier Mensch",
+            "Mathis Gerdes",
+            "Miranda C. N. Cheng"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "REACT: Physically and Chemically Consistent Reconstruction of Marine Active Tracers"
+        },
+        "authors": {
+          "value": [
+            "Wenbin Dai",
+            "Hao Zheng",
+            "Shiyu Liang",
+            "Chaofan Sun",
+            "Xueying Zhang",
+            "Hanbo Huang",
+            "Xuan Gong",
+            "Yiran Zhang",
+            "Enhui Liao"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "Predicting Precision: Equivariant Delta-learning and Uncertainty Quantification for High-Throughput DFT"
+        },
+        "authors": {
+          "value": [
+            "Daniel T. Speckhard",
+            "Claudia Draxl",
+            "Christian Carbogno",
+            "Matthias Scheffler"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "FlowPDE: Understanding and Justifying Flow Matching in PDE Solving"
+        },
+        "authors": {
+          "value": [
+            "Tianxiao Li",
+            "Tianyu Huang",
+            "Hang Zhou",
+            "Yuezhou Ma",
+            "Minghao Guo",
+            "Haixu Wu",
+            "Chuang Gan",
+            "Mingsheng Long",
+            "Wojciech Matusik"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "Training Neural PDE Solvers with Partial Observations"
+        },
+        "authors": {
+          "value": [
+            "Harris Abdul Majid",
+            "Giannis Daras",
+            "Francesco Tudisco",
+            "Steven McDonagh"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "Neural Schur Complement Operators for Coarse-to-Fine Neural Operator Transfer"
+        },
+        "authors": {
+          "value": [
+            "Ansh Tiwari"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "SciKernelBench: Evaluating LLM Kernels for Higher-Order Autodiff and Scientific Residuals"
+        },
+        "authors": {
+          "value": [
+            "Maria Ivanova",
+            "Pavel Zadorozhny",
+            "Rodion Levichev",
+            "Konstantin Sozykin",
+            "Redko Dmitry",
+            "Albert Fazlyev",
+            "Dmitry Abulkhanov",
+            "Evgeny Burnaev",
+            "Dmitrii Babaev",
+            "Egor Shvetsov"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "SOLENO: One Scalar Potential, Zero Divergence — Overcoming the Accuracy–Solenoidality Trade‑off"
+        },
+        "authors": {
+          "value": [
+            "Rahul D Ray",
+            "Charles Gretton",
+            "Matthew Hole"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "FactoryNet: A Large-Scale Dataset toward Industrial Time-Series Foundation Models"
+        },
+        "authors": {
+          "value": [
+            "Karim Othman",
+            "Jonas Petersen",
+            "Matei C. Ignuta-Ciuncanu",
+            "Gian-Alessandro Lombardi",
+            "Camilla Mazzoleni",
+            "Federico Martelli",
+            "Riccardo Maggioni",
+            "Philipp Christian Petersen"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "Quantum Mean-Field Games: Numerical Nash Equilibria via PDE-form HJB Learning"
+        },
+        "authors": {
+          "value": [
+            "Nevroz Sen"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "Geometry, Not Energy Surface, Drives the Neutral MLIP–DFT Gap in Atomistic Interaction Surrogates"
+        },
+        "authors": {
+          "value": [
+            "Rui Ding",
+            "Zixin Ding",
+            "Rodrigo P. Ferreira",
+            "Yuxin Chen",
+            "Junhong Chen"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "Interpretable Equivariant Marks for Contrastive Cosmological Inference"
+        },
+        "authors": {
+          "value": [
+            "Federico Semenzato",
+            "Liguori M.",
+            "Benjamin Dan Wandelt",
+            "Alvise Raccanelli"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "GEMS: Molecular Structure Identification via Geodesic Navigation of the Isomer Manifold"
+        },
+        "authors": {
+          "value": [
+            "Utku Umur ACIKALIN",
+            "Yingheng Wang",
+            "Goncalo J. Gouveia",
+            "Tyler Schwertfeger",
+            "Frank C Schroeder",
+            "Carla P Gomes"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "PIEFS: Physics-Informed Eigenfunction Features with Learnable Scaling"
+        },
+        "authors": {
+          "value": [
+            "Alexander Tarakanov",
+            "Varvara Nazarenko",
+            "Timur Lidzhiev"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "Simulation-to-Real Learning for VLBI Jet Morphology Classification"
+        },
+        "authors": {
+          "value": [
+            "Dmitrii Zagorulia",
+            "Mikhail Lisakov"
+          ]
+        }
+      }
+    },
+    {
+      "content": {
+        "title": {
+          "value": "MPINeuralODE: Multiple-Initial-Condition Physics-Informed Neural ODEs for Globally Consistent Dynamical System Learning"
+        },
+        "authors": {
+          "value": [
+            "Lake Yang",
+            "Serafim Kalliadasis"
+          ]
+        }
+      }
+    }
+  ]
+}

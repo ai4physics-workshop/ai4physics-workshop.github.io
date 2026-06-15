@@ -75,6 +75,66 @@
       margin-bottom: 8px;
     }
 
+    /* ======= Schedule Table ======= */
+    .schedule-table {
+      width: 100%;
+      border-collapse: collapse;
+      background: #fff;
+      font-family: Arial, sans-serif;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      margin: 20px 0;
+    }
+
+    .schedule-table th,
+    .schedule-table td {
+      padding: 12px 15px;
+      border-bottom: 1px solid #ccc;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    .schedule-table th {
+      background-color: #f7f7f7;
+      font-weight: bold;
+    }
+
+    .schedule-table tbody tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+
+    .schedule-table tbody tr:hover {
+      background-color: #f1f1f1;
+    }
+
+    /* Keep the time column on a single line */
+    .schedule-table td.time,
+    .schedule-table th:first-child {
+      white-space: nowrap;
+      font-weight: 600;
+      color: #00356B;
+    }
+
+    /* Session-type column emphasis */
+    .schedule-table td.session {
+      font-weight: 600;
+      color: #343a40;
+    }
+
+    /* Distinct background colors for special rows */
+    .schedule-table tr.break-row td  { background-color: #fff3cd80 !important; }
+    .schedule-table tr.poster-row td { background-color: #e7f5ff80 !important; }
+    .schedule-table tr.oral-row td   { background-color: #e6f4ea80 !important; }
+    .schedule-table tr.head-row td   { background-color: #f3eefa80 !important; }
+
+    /* Responsive table paddings */
+    @media (max-width: 768px) {
+      .schedule-table th,
+      .schedule-table td {
+        padding: 10px;
+        font-size: 14px;
+      }
+    }
+
   </style>
 </head>
 
@@ -96,6 +156,7 @@
           <li><a class="nav-link scrollto" href="#about">About</a></li>
           <li><a class="nav-link scrollto" href="#topic">Topics</a></li>
           <li><a class="nav-link scrollto" href="#speakers">Speakers &amp; Panelists</a></li>
+          <li><a class="nav-link scrollto" href="#schedule">Schedule</a></li>
           <li><a class="nav-link scrollto" href="#accepted-paper">Accepted Papers</a></li>
           <li><a class="nav-link scrollto" href="#cfp">Call for Papers</a></li>
           <li><a class="nav-link scrollto" href="#organizers">Organizers</a></li>
@@ -263,6 +324,121 @@
         </div>
       </div>
     </section>
+
+    <!-- ======= Schedule Section ======= -->
+    <section id="schedule">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>Schedule</h2>
+          <p>Saturday, July 11, 2026 · Conference Room S402 · all times in KST. Program is tentative and subject to change.</p>
+        </div>
+
+        <div class="table-responsive">
+          <table class="schedule-table table align-middle">
+            <thead>
+              <tr>
+                <th>Time&nbsp;(KST)</th>
+                <th>Session</th>
+                <th>Speaker</th>
+                <th>Talk&nbsp;Title</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="head-row">
+                <td class="time">08:00 – 08:15</td>
+                <td class="session">Opening Remarks</td>
+                <td colspan="2"></td>
+              </tr>
+              <tr>
+                <td class="time">08:15 – 08:45</td>
+                <td class="session">Invited Talk&nbsp;1</td>
+                <td>Michael Brenner (Harvard)</td>
+                <td>An AI System to Help Scientists Write Expert-Level Empirical Software <em>(TBC)</em></td>
+              </tr>
+              <tr>
+                <td class="time">08:45 – 09:15</td>
+                <td class="session">Invited Talk&nbsp;2</td>
+                <td>Mengdi Wang (Princeton)</td>
+                <td>The AI-XR Co-Scientist That Sees and Works With Humans</td>
+              </tr>
+              <tr class="break-row">
+                <td class="time">09:15 – 09:30</td>
+                <td class="session">Morning Break</td>
+                <td colspan="2"></td>
+              </tr>
+              <tr>
+                <td class="time">09:30 – 10:00</td>
+                <td class="session">Invited Talk&nbsp;3</td>
+                <td>Ludwig Schmidt (Stanford) &amp; Steven Dillmann (Stanford)</td>
+                <td>Terminal-Bench Science</td>
+              </tr>
+              <tr>
+                <td class="time">10:00 – 10:30</td>
+                <td class="session">Invited Talk&nbsp;4</td>
+                <td>Michael R. Douglas (Harvard)</td>
+                <td>Validating Theoretical Physics Produced by AI</td>
+              </tr>
+              <tr>
+                <td class="time">10:30 – 11:30</td>
+                <td class="session">Panel 1</td>
+                <td>Michael R. Douglas (Harvard), Surya Ganguli (Stanford), Ludwig Schmidt (Stanford), Mengdi Wang (Princeton)</td>
+                <td>Moderators: Arman Cohan &amp; Eun-Ah Kim</td>
+              </tr>
+              <tr>
+                <td class="time">11:30 – 12:00</td>
+                <td class="session">Invited Talk&nbsp;5</td>
+                <td>Kelsie Zhao (Causal Labs)</td>
+                <td>Predict, Act and Control with Large Physics Models</td>
+              </tr>
+              <tr class="poster-row">
+                <td class="time">12:00 – 13:00</td>
+                <td class="session">Lunch Break &amp; Poster Session</td>
+                <td colspan="2"></td>
+              </tr>
+              <tr class="oral-row">
+                <td class="time">13:00 – 14:00</td>
+                <td class="session">Oral Session</td>
+                <td colspan="2"></td>
+              </tr>
+              <tr class="poster-row">
+                <td class="time">14:00 – 15:00</td>
+                <td class="session">Poster Session</td>
+                <td colspan="2"></td>
+              </tr>
+              <tr>
+                <td class="time">15:00 – 15:30</td>
+                <td class="session">Invited Talk&nbsp;6</td>
+                <td>Yannis Kevrekidis (Johns Hopkins)</td>
+                <td>ML-Assisted Modeling: Something Old, Something New, Something Borrowed, and Some Things That Do Not Matter</td>
+              </tr>
+              <tr>
+                <td class="time">15:30 – 16:00</td>
+                <td class="session">Invited Talk&nbsp;7</td>
+                <td>Surya Ganguli (Stanford)</td>
+                <td>High-Dimensional Geometry and Dynamics of Quantum Optimizers Composed of Atoms and Photons</td>
+              </tr>
+              <tr class="break-row">
+                <td class="time">16:00 – 16:15</td>
+                <td class="session">Afternoon Break</td>
+                <td colspan="2"></td>
+              </tr>
+              <tr>
+                <td class="time">16:15 – 17:15</td>
+                <td class="session">Panel 2</td>
+                <td>Lucas Baker (Jump Trading), Ben Erichson (Causal Labs), Charles Cheung (NVIDIA), Alberto Alfarano (Axiom)</td>
+                <td>Moderators: Grant Rotskoff &amp; Anna Gilbert</td>
+              </tr>
+              <tr class="head-row">
+                <td class="time">17:15 – 17:30</td>
+                <td class="session">Paper Awards &amp; Closing Remarks</td>
+                <td colspan="2"></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+    <!-- End Schedule Section -->
 
     <!-- ======= Accepted Papers ======= -->
     <section id="accepted-paper" class="section-with-bg">

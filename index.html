@@ -120,6 +120,15 @@
       color: #343a40;
     }
 
+    /* Speakers column: one name per line; column width follows the widest single name */
+    .schedule-table td.spk { white-space: nowrap; width: 1%; }
+    .schedule-table td.spk .spk-name { display: block; }
+    .schedule-table td.spk .spk-name + .spk-name { margin-top: 3px; }
+
+    /* Talk Title takes the remaining width */
+    .schedule-table td.talk,
+    .schedule-table th:last-child { width: auto; }
+
     /* Distinct background colors for special rows */
     .schedule-table tr.break-row td  { background-color: #fff3cd80 !important; }
     .schedule-table tr.poster-row td { background-color: #e7f5ff80 !important; }
@@ -392,13 +401,13 @@
               <tr>
                 <td class="time">08:15 – 08:45</td>
                 <td class="session">Invited Talk&nbsp;1</td>
-                <td>Michael Brenner (Harvard)</td>
+                <td class="spk"><span class="spk-name">Michael Brenner (Harvard)</span></td>
                 <td>An AI System to Help Scientists Write Expert-Level Empirical Software <em>(TBC)</em></td>
               </tr>
               <tr>
                 <td class="time">08:45 – 09:15</td>
                 <td class="session">Invited Talk&nbsp;2</td>
-                <td>Mengdi Wang (Princeton)</td>
+                <td class="spk"><span class="spk-name">Mengdi Wang (Princeton)</span></td>
                 <td>The AI-XR Co-Scientist That Sees and Works With Humans</td>
               </tr>
               <tr class="break-row">
@@ -409,25 +418,25 @@
               <tr>
                 <td class="time">09:30 – 10:00</td>
                 <td class="session">Invited Talk&nbsp;3</td>
-                <td>Ludwig Schmidt (Stanford) &amp; Steven Dillmann (Stanford)</td>
+                <td class="spk"><span class="spk-name">Ludwig Schmidt (Stanford)</span><span class="spk-name">Steven Dillmann (Stanford)</span></td>
                 <td>Terminal-Bench Science</td>
               </tr>
               <tr>
                 <td class="time">10:00 – 10:30</td>
                 <td class="session">Invited Talk&nbsp;4</td>
-                <td>Michael R. Douglas (Harvard)</td>
+                <td class="spk"><span class="spk-name">Michael R. Douglas (Harvard)</span></td>
                 <td>Validating Theoretical Physics Produced by AI</td>
               </tr>
               <tr>
                 <td class="time">10:30 – 11:30</td>
                 <td class="session">Panel 1</td>
-                <td>Michael R. Douglas (Harvard), Surya Ganguli (Stanford), Ludwig Schmidt (Stanford), Mengdi Wang (Princeton)</td>
+                <td class="spk"><span class="spk-name">Michael R. Douglas (Harvard)</span><span class="spk-name">Surya Ganguli (Stanford)</span><span class="spk-name">Ludwig Schmidt (Stanford)</span><span class="spk-name">Mengdi Wang (Princeton)</span></td>
                 <td>Moderators: Arman Cohan &amp; Eun-Ah Kim</td>
               </tr>
               <tr>
                 <td class="time">11:30 – 12:00</td>
                 <td class="session">Invited Talk&nbsp;5</td>
-                <td>Kelsie Zhao (Causal Labs)</td>
+                <td class="spk"><span class="spk-name">Kelsie Zhao (Causal Labs)</span></td>
                 <td>Predict, Act and Control with Large Physics Models</td>
               </tr>
               <tr class="poster-row">
@@ -448,13 +457,13 @@
               <tr>
                 <td class="time">15:00 – 15:30</td>
                 <td class="session">Invited Talk&nbsp;6</td>
-                <td>Yannis Kevrekidis (Johns Hopkins)</td>
+                <td class="spk"><span class="spk-name">Yannis Kevrekidis (Johns Hopkins)</span></td>
                 <td>ML-Assisted Modeling: Something Old, Something New, Something Borrowed, and Some Things That Do Not Matter</td>
               </tr>
               <tr>
                 <td class="time">15:30 – 16:00</td>
                 <td class="session">Invited Talk&nbsp;7</td>
-                <td>Surya Ganguli (Stanford)</td>
+                <td class="spk"><span class="spk-name">Surya Ganguli (Stanford)</span></td>
                 <td>High-Dimensional Geometry and Dynamics of Quantum Optimizers Composed of Atoms and Photons</td>
               </tr>
               <tr class="break-row">
@@ -465,7 +474,7 @@
               <tr>
                 <td class="time">16:15 – 17:15</td>
                 <td class="session">Panel 2</td>
-                <td>Lucas Baker (Jump Trading), Ben Erichson (LBNL), Charles Cheung (NVIDIA), Alberto Alfarano (Axiom)</td>
+                <td class="spk"><span class="spk-name">Lucas Baker (Jump Trading)</span><span class="spk-name">Ben Erichson (LBNL)</span><span class="spk-name">Charles Cheung (NVIDIA)</span><span class="spk-name">Alberto Alfarano (Axiom)</span></td>
                 <td>Moderators: Grant Rotskoff &amp; Anna Gilbert</td>
               </tr>
               <tr class="head-row">

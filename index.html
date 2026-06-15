@@ -124,6 +124,15 @@
     .schedule-table td.spk { white-space: nowrap; width: 1%; }
     .schedule-table td.spk .spk-name { display: block; }
     .schedule-table td.spk .spk-name + .spk-name { margin-top: 3px; }
+    /* Moderators line: wraps (so it does not widen the column), shown muted under the panelists */
+    .schedule-table td.spk .spk-mod {
+      display: block;
+      white-space: normal;
+      margin-top: 7px;
+      font-size: 0.85em;
+      font-weight: 400;
+      color: #6c757d;
+    }
 
     /* Talk Title takes the remaining width */
     .schedule-table td.talk,
@@ -430,8 +439,8 @@
               <tr>
                 <td class="time">10:30 – 11:30</td>
                 <td class="session">Panel 1</td>
-                <td class="spk"><span class="spk-name">Michael R. Douglas (Harvard)</span><span class="spk-name">Surya Ganguli (Stanford)</span><span class="spk-name">Ludwig Schmidt (Stanford)</span><span class="spk-name">Mengdi Wang (Princeton)</span></td>
-                <td>Moderators: Arman Cohan &amp; Eun-Ah Kim</td>
+                <td class="spk"><span class="spk-name">Michael R. Douglas (Harvard)</span><span class="spk-name">Surya Ganguli (Stanford)</span><span class="spk-name">Ludwig Schmidt (Stanford)</span><span class="spk-name">Mengdi Wang (Princeton)</span><span class="spk-mod">Moderators: Arman Cohan &amp; Eun-Ah Kim</span></td>
+                <td></td>
               </tr>
               <tr>
                 <td class="time">11:30 – 12:00</td>
@@ -439,7 +448,7 @@
                 <td class="spk"><span class="spk-name">Kelsie Zhao (Causal Labs)</span></td>
                 <td>Predict, Act and Control with Large Physics Models</td>
               </tr>
-              <tr class="poster-row">
+              <tr class="break-row">
                 <td class="time">12:00 – 13:00</td>
                 <td class="session">Lunch Break &amp; Poster Setup</td>
                 <td colspan="2"></td>
@@ -474,8 +483,8 @@
               <tr>
                 <td class="time">16:15 – 17:15</td>
                 <td class="session">Panel 2</td>
-                <td class="spk"><span class="spk-name">Lucas Baker (Jump Trading)</span><span class="spk-name">Ben Erichson (LBNL)</span><span class="spk-name">Charles Cheung (NVIDIA)</span><span class="spk-name">Alberto Alfarano (Axiom)</span></td>
-                <td>Moderators: Grant Rotskoff &amp; Anna Gilbert</td>
+                <td class="spk"><span class="spk-name">Lucas Baker (Jump Trading)</span><span class="spk-name">Ben Erichson (LBNL)</span><span class="spk-name">Charles Cheung (NVIDIA)</span><span class="spk-name">Alberto Alfarano (Axiom)</span><span class="spk-mod">Moderators: Grant Rotskoff &amp; Anna Gilbert</span></td>
+                <td></td>
               </tr>
               <tr class="head-row">
                 <td class="time">17:15 – 17:30</td>

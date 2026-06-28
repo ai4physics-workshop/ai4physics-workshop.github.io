@@ -236,3 +236,13 @@ reply.txt
 # macOS accidental copies
 *\ copy.png
 *\ copy.jpg
+
+# AI4Physics presentation/shortlist working files (local only).
+# judges_shortlist.html is the ONLY public artifact; everything else stays local.
+accepted_papers.csv
+Workshop Schedule - Sheet1.csv
+AI4Physics@ICML 26 Workshop Accepted Paper Presentation Information (Responses) - Form Responses 1.csv
+reminder_emails.md
+top10_inperson_confirmed.md
+top10_prestige_not_inperson.md
+email.txt

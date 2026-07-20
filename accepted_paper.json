@@ -1,6 +1,7 @@
 {
   "notes": [
     {
+      "id": "KI9UxQtJlM",
       "content": {
         "title": {
           "value": "ChemHyperMag: Physics-informed magnetic hypergraph learning improves molecular ADMET prediction"
@@ -27,6 +28,7 @@
       }
     },
     {
+      "id": "NjCAj1hZGY",
       "content": {
         "title": {
           "value": "StarEmbed: Benchmarking Time Series Foundation Models on Astronomical Observations of Variable Stars<br><i>🌟 Outstanding Paper Award</i>"
@@ -47,6 +49,7 @@
       }
     },
     {
+      "id": "4rgtkoCNnA",
       "content": {
         "title": {
           "value": "Generative Priors Accelerate Inverse Design for Regularized, High Performance Integrated Photonics"
@@ -63,6 +66,7 @@
       }
     },
     {
+      "id": "zb78O5J0B7",
       "content": {
         "title": {
           "value": "Koopman Operator Enhanced 3D Voxcel Auto-Encoder to Predict 3D Seismic Waves Propagation"
@@ -75,6 +79,7 @@
       }
     },
     {
+      "id": "iW8zWqe13T",
       "content": {
         "title": {
           "value": "Mat-Pref: Verifiable-Reward Training Improves Compositional Reasoning in Inorganic Materials"
@@ -89,6 +94,7 @@
       }
     },
     {
+      "id": "8mkX2WU0hC",
       "content": {
         "title": {
           "value": "Taming Gradient Perturbations: Probabilistic Reparameterization for Robust Physics-Informed MRI Protocol Optimization"
@@ -103,6 +109,7 @@
       }
     },
     {
+      "id": "EXfZVTq8Yu",
       "content": {
         "title": {
           "value": "PLAID: A Unified Data Model for Machine Learning on Heterogeneous Physics Simulations"
@@ -134,6 +141,7 @@
       }
     },
     {
+      "id": "nUki4FsrIe",
       "content": {
         "title": {
           "value": "Microlensing Detection and Inference via Learned Bayes Factors"
@@ -148,6 +156,7 @@
       }
     },
     {
+      "id": "5tlXAcM9gv",
       "content": {
         "title": {
           "value": "Data-Driven Transport Geometry for Rare Events in Metastable Systems"
@@ -161,6 +170,7 @@
       }
     },
     {
+      "id": "yb1tvNHDhl",
       "content": {
         "title": {
           "value": "Efficient Surrogate Modeling for Fast Hydrodynamic Evolution of the Quark-Gluon Plasma"
@@ -179,6 +189,7 @@
       }
     },
     {
+      "id": "u9boDlH65n",
       "content": {
         "title": {
           "value": "Learning Pore-scale Multiphase Flow from 4D Velocimetry"
@@ -202,6 +213,7 @@
       }
     },
     {
+      "id": "QGXY4FeSff",
       "content": {
         "title": {
           "value": "Revisiting the Form of Attention with Positional Encoding for Molecular Structures"
@@ -219,6 +231,7 @@
       }
     },
     {
+      "id": "vuHHaqe0Hy",
       "content": {
         "title": {
           "value": "FlowForge: A Staged Local Rollout Engine for Flow Field Prediction"
@@ -234,6 +247,7 @@
       }
     },
     {
+      "id": "YpzBAC0ZoI",
       "content": {
         "title": {
           "value": "Loss Landscape Diagnostics for Gradient-Based Inversion of the Gray-Scott System: Geometric Implications for PINN Design"
@@ -246,6 +260,7 @@
       }
     },
     {
+      "id": "KqfHzWc2QS",
       "content": {
         "title": {
           "value": "GC-500K: A Physics-Consistent Large-Scale Benchmark Dataset for Grating Coupler Design"
@@ -260,6 +275,7 @@
       }
     },
     {
+      "id": "LD0n70PA0U",
       "content": {
         "title": {
           "value": "Alpha-RF: Automated RF-Filter-Circuit Design with Neural Simulator and Reinforcement Learning"
@@ -276,6 +292,7 @@
       }
     },
     {
+      "id": "Le0DXiZKlk",
       "content": {
         "title": {
           "value": "Harmonic Sampling: Zero-Parameter Flows on Compact Manifolds"
@@ -289,6 +306,7 @@
       }
     },
     {
+      "id": "K9bHv3Y3Uf",
       "content": {
         "title": {
           "value": "QuantumLean-Bench: A Unified Benchmark for Informal and Formal Quantum Reasoning"
@@ -304,6 +322,7 @@
       }
     },
     {
+      "id": "GPbFukEIDQ",
       "content": {
         "title": {
           "value": "Deep Ritz Neural Operator for Dendritic Growth via Energy Splitting"
@@ -319,6 +338,7 @@
       }
     },
     {
+      "id": "7zp3ZfoSX4",
       "content": {
         "title": {
           "value": "Contrastive Image-Metadata Pre-Training for Materials Transmission Electron Microscopy"
@@ -336,6 +356,7 @@
       }
     },
     {
+      "id": "MmdqKqU5Fw",
       "content": {
         "title": {
           "value": "MōLe-Λ: Learning the Coupled-Cluster Response State for Energies, Gradients, and Properties"
@@ -354,6 +375,7 @@
       }
     },
     {
+      "id": "pzZpC69gC7",
       "content": {
         "title": {
           "value": "Strong Gravitational Lensing Posterior Sampling in Pixel-Space Using Diffusion Models and Recurrent Inference Machines"
@@ -369,6 +391,7 @@
       }
     },
     {
+      "id": "mh1eBzETBf",
       "content": {
         "title": {
           "value": "Interpreting the Synchronization Gap: The Hidden Mechanism Inside Diffusion Transformers"
@@ -384,6 +407,7 @@
       }
     },
     {
+      "id": "YDTdNs4H4Z",
       "content": {
         "title": {
           "value": "PAINT: Parallel-in-time Neural Twins for Dynamical System Reconstruction"
@@ -399,6 +423,7 @@
       }
     },
     {
+      "id": "PUEt2m9lzC",
       "content": {
         "title": {
           "value": "PRISM: Position-encoded Regressive Inverse Spectral Model for Multilayer Thin-Film Design"
@@ -414,6 +439,7 @@
       }
     },
     {
+      "id": "MeAFOZnrvM",
       "content": {
         "title": {
           "value": "Semigroup Consistency as a Diagnostic for Learned Physics Simulators"
@@ -426,6 +452,7 @@
       }
     },
     {
+      "id": "9IdnFv2TmQ",
       "content": {
         "title": {
           "value": "QMP-Bench: A Research-Level Benchmark for Autonomous End-to-End Quantum Many-Body Simulations"
@@ -447,6 +474,7 @@
       }
     },
     {
+      "id": "GPCdVV3vMj",
       "content": {
         "title": {
           "value": "Plausible but Wrong: A Case Study on Agentic Failures in Astrophysical Workflows"
@@ -459,6 +487,7 @@
       }
     },
     {
+      "id": "vcx6YRHRBi",
       "content": {
         "title": {
           "value": "Bayesian Cosmic Void Finding with Graph Flows"
@@ -471,6 +500,7 @@
       }
     },
     {
+      "id": "NjE9a2uwx9",
       "content": {
         "title": {
           "value": "Learning Design Skills as Memory Policies for Agentic Photonic Inverse Design"
@@ -485,6 +515,7 @@
       }
     },
     {
+      "id": "kRlSwbfiEQ",
       "content": {
         "title": {
           "value": "Bifurcation Preservation as a Physics Diagnostic for Neural Phase-Field Surrogates"
@@ -499,6 +530,7 @@
       }
     },
     {
+      "id": "ppQvDCH4qi",
       "content": {
         "title": {
           "value": "LLMs with in-context learning for Algorithmic Theoretical Physics"
@@ -512,6 +544,7 @@
       }
     },
     {
+      "id": "aQyk6xF2tS",
       "content": {
         "title": {
           "value": "From Experiments to Expertise: Scientific Knowledge Consolidation for AI-Driven Computational Physics"
@@ -524,6 +557,7 @@
       }
     },
     {
+      "id": "K9dZkgjzRU",
       "content": {
         "title": {
           "value": "Signal-Preserving Cosmic Microwave Background Cleaning with Multi-Scale Learning"
@@ -539,6 +573,7 @@
       }
     },
     {
+      "id": "svMJ3yH4dq",
       "content": {
         "title": {
           "value": "The Encoding-Learning Tradeoff in Scientific Machine Learning: A Risk-Asymmetric Study of Brusselator Reaction-Diffusion Forecasting"
@@ -555,6 +590,7 @@
       }
     },
     {
+      "id": "Q9ZOO12Iy1",
       "content": {
         "title": {
           "value": "Coupling-Robust Accuracy in Multiphysics PINNs via Kronecker-Preconditioned Optimization"
@@ -569,6 +605,7 @@
       }
     },
     {
+      "id": "606d4x5CjS",
       "content": {
         "title": {
           "value": "torch-sla: Differentiable Sparse Linear Algebra with Adjoint Solvers and Sparse Tensor Parallelism for PyTorch"
@@ -582,6 +619,7 @@
       }
     },
     {
+      "id": "wppmweesLn",
       "content": {
         "title": {
           "value": "Amortized Simulation-Based Inference of Colliding-Wind Binaries from Short, Noisy Image Time Series"
@@ -597,6 +635,7 @@
       }
     },
     {
+      "id": "YCnZJEONzO",
       "content": {
         "title": {
           "value": "Spectral Bias in Variational Quantum Machine Learning"
@@ -611,6 +650,7 @@
       }
     },
     {
+      "id": "ItlBE5738K",
       "content": {
         "title": {
           "value": "Synthetic Physics as Supervision: Learning Real-World Physical Reasoning in Vision-Language Models"
@@ -624,6 +664,7 @@
       }
     },
     {
+      "id": "MEZ1otYgXS",
       "content": {
         "title": {
           "value": "Spectrally Regularized Latent Flow Matching for Turbulence Generation"
@@ -637,6 +678,7 @@
       }
     },
     {
+      "id": "ZHz2oVJBvZ",
       "content": {
         "title": {
           "value": "Hierarchical Discovery of Adiabatic Hamiltonian Paths and RL Schedules for Quantum Linear System Solvers"
@@ -649,6 +691,7 @@
       }
     },
     {
+      "id": "8imTXiO0Ax",
       "content": {
         "title": {
           "value": "LLM-Guided Neural Architecture Search for Robust Co-Design of Physical Neural Networks"
@@ -662,6 +705,7 @@
       }
     },
     {
+      "id": "YYolr0ezd7",
       "content": {
         "title": {
           "value": "Trading off Controllability and Realism in Generative Physics Emulators<br><i>🌟 Outstanding Paper Award</i>"
@@ -681,6 +725,7 @@
       }
     },
     {
+      "id": "A0k7VU6iRG",
       "content": {
         "title": {
           "value": "Self-Monitoring Warmup: Data-Driven Confidence Rectification for PINN Optimizers"
@@ -695,6 +740,7 @@
       }
     },
     {
+      "id": "pDQoUjLrZ0",
       "content": {
         "title": {
           "value": "When Does Critique Improve AI-Assisted Theoretical Physics? SCALAR: Structured Critic--Actor Loop for Agentic Reasoning"
@@ -710,6 +756,7 @@
       }
     },
     {
+      "id": "dNHJzFC0Pd",
       "content": {
         "title": {
           "value": "Accelerating Posterior Inference from Pulsar Light Curves via Learned Latent Representations and Local Simulator-Guided Optimization"
@@ -728,6 +775,7 @@
       }
     },
     {
+      "id": "uX2ryvmaay",
       "content": {
         "title": {
           "value": "Amortized Neural-Symbolic Inverse Dynamics: Robust and Invariant Parameter Inference via Latent Dynamics"
@@ -742,6 +790,7 @@
       }
     },
     {
+      "id": "BIdT3cqx0E",
       "content": {
         "title": {
           "value": "Conservation-Constrained Fourier Neural Operators for Physically Consistent PDE Simulation"
@@ -758,6 +807,7 @@
       }
     },
     {
+      "id": "3OMwjNsx90",
       "content": {
         "title": {
           "value": "Towards a Physics Foundation Model"
@@ -773,6 +823,7 @@
       }
     },
     {
+      "id": "Kbr7JLu7Wh",
       "content": {
         "title": {
           "value": "LM-PIELM: A Lagrange-Multiplier Framework for Hard Constraint Enforcement in Physics-Informed Extreme Learning Machines for PDE-Governed Forward and Inverse Problems"
@@ -787,6 +838,7 @@
       }
     },
     {
+      "id": "iuK0FfmcMG",
       "content": {
         "title": {
           "value": "Stargazer: A Scalable Model-fitting Benchmark Environment for AI Agents under Astrophysical Constraints"
@@ -803,6 +855,7 @@
       }
     },
     {
+      "id": "6VOQxRx5mJ",
       "content": {
         "title": {
           "value": "Crystalite: A Lightweight Transformer for Efficient Crystal Modeling"
@@ -818,6 +871,7 @@
       }
     },
     {
+      "id": "FYLB0utjqH",
       "content": {
         "title": {
           "value": "Probabilistic Data-Driven Modelling of Astrophysical Transients: The Neural Process Family for Ultrafast and Class-Agnostic Light Curve Reconstruction"
@@ -832,6 +886,7 @@
       }
     },
     {
+      "id": "RIojKtUCrJ",
       "content": {
         "title": {
           "value": "Learning Interface Breakup: A Geometry-Conditioned Latent Surrogate for Spray Formation"
@@ -849,6 +904,7 @@
       }
     },
     {
+      "id": "Itf2hU4EPG",
       "content": {
         "title": {
           "value": "PINNfluence: Interpreting PINNs through Influence Functions"
@@ -868,6 +924,7 @@
       }
     },
     {
+      "id": "lmj83YIyiz",
       "content": {
         "title": {
           "value": "Fluid-Gen-Zero: Grounding Pretrained Video Generators in Physics without Training"
@@ -885,6 +942,7 @@
       }
     },
     {
+      "id": "F0DB2JDpb3",
       "content": {
         "title": {
           "value": "Generalization vs. Memorization in Partial Differential Equation Emulators: Or, Training Dynamics of Cross-Time and Cross-Class Gradient Alignment"
@@ -907,6 +965,7 @@
       }
     },
     {
+      "id": "1yRpUPopFM",
       "content": {
         "title": {
           "value": "NIGO: Lyapunov-Stable Continuous-Time Neural Operators for Long-Horizon PDE Dynamics"
@@ -922,6 +981,7 @@
       }
     },
     {
+      "id": "Ph1Jj4A049",
       "content": {
         "title": {
           "value": "LieSolver: PDE-Constrained Learning for IBVPs via Lie Symmetries"
@@ -940,6 +1000,7 @@
       }
     },
     {
+      "id": "gYbqOvL2Ld",
       "content": {
         "title": {
           "value": "Bounds on Extrapolation across Phase Transitions with Generalized Regression"
@@ -954,6 +1015,7 @@
       }
     },
     {
+      "id": "5DSYaLjMMo",
       "content": {
         "title": {
           "value": "Wavelet Variance Equipartition as a Threshold for World-Model Quality and Quantum Kernel TN-Simulability"
@@ -969,6 +1031,7 @@
       }
     },
     {
+      "id": "x7tbgnfCbd",
       "content": {
         "title": {
           "value": "Learning to Trigger: Reinforcement Learning at Large Hadron Collider<br><i>🏆 Best Paper Award</i>"
@@ -990,6 +1053,7 @@
       }
     },
     {
+      "id": "t8hgNJB1Dr",
       "content": {
         "title": {
           "value": "Template Matching, Not Time Learning: A Diagnostic for Self-Supervised Light Curve Encoders"
@@ -1002,6 +1066,7 @@
       }
     },
     {
+      "id": "wuJjHvzTwC",
       "content": {
         "title": {
           "value": "Ion-Pot and Ion-Curr: Ion-Aware Benchmarks for Electrostatic Field and Observable Prediction in Complex Geometries"
@@ -1016,6 +1081,7 @@
       }
     },
     {
+      "id": "VNdLLU6SkE",
       "content": {
         "title": {
           "value": "Text-Guided Diffusion Model for Adaptive Reconstruction through Scattering Media"
@@ -1030,6 +1096,7 @@
       }
     },
     {
+      "id": "7xf2daF2vi",
       "content": {
         "title": {
           "value": "Quality-Weighted Determinantal Point Processes for Sample Efficient DFT Surrogate Models"
@@ -1043,6 +1110,7 @@
       }
     },
     {
+      "id": "5ZIFFutCKi",
       "content": {
         "title": {
           "value": "QMaxCal: Path-Space Regularization for Open Quantum Control via Girsanov's Theorem"
@@ -1059,6 +1127,7 @@
       }
     },
     {
+      "id": "1eJBXqNBvS",
       "content": {
         "title": {
           "value": "Deriving an Analytical Expression for the Rise of Type Ia Supernovae with Symbolic Regression and High Cadence data"
@@ -1072,6 +1141,7 @@
       }
     },
     {
+      "id": "6HCUxH4vdm",
       "content": {
         "title": {
           "value": "SNAP-FM: Sparse Nonlinear Accelerated Projection for Physics-Constrained Generative Modeling"
@@ -1090,6 +1160,7 @@
       }
     },
     {
+      "id": "ehu3SPjrpP",
       "content": {
         "title": {
           "value": "QUIVER: Quantum-Informed Views for Enhanced Representations in Large ML Models"
@@ -1106,6 +1177,7 @@
       }
     },
     {
+      "id": "eUp3ZsDgeK",
       "content": {
         "title": {
           "value": "Hybrid Neural-MPM for Accelerated and Controllable Fluid Simulations"
@@ -1123,6 +1195,7 @@
       }
     },
     {
+      "id": "s5picDaxfo",
       "content": {
         "title": {
           "value": "How Much Memory Do We Need? Adaptive Memory Gate for Neural Operators"
@@ -1139,6 +1212,7 @@
       }
     },
     {
+      "id": "IcLmHEb5HO",
       "content": {
         "title": {
           "value": "Adaptive Interaction Graphs for Particle Simulation"
@@ -1151,6 +1225,7 @@
       }
     },
     {
+      "id": "oAe1wRN76R",
       "content": {
         "title": {
           "value": "21cmEMUv3: a Hybrid Diffusion-LSTM Emulator for Joint Inference of Cosmic Dawn and Reionisation"
@@ -1163,6 +1238,7 @@
       }
     },
     {
+      "id": "UZsb3AffU4",
       "content": {
         "title": {
           "value": "Equivariant Graph Neural Networks Improve Optical Spectra Prediction for Materials Screening"
@@ -1180,6 +1256,7 @@
       }
     },
     {
+      "id": "oQKRvOLYbb",
       "content": {
         "title": {
           "value": "IKNO: Infinite-order Kernel Neural Operators"
@@ -1194,6 +1271,7 @@
       }
     },
     {
+      "id": "VWWv1Npj2b",
       "content": {
         "title": {
           "value": "One More Time: Revisiting Neural Quantum States from a Reinforcement Learning Perspective"
@@ -1212,6 +1290,7 @@
       }
     },
     {
+      "id": "UtLX8gfw6O",
       "content": {
         "title": {
           "value": "Physics-Informed Neural PDE Solvers via Spatio-Temporal MeanFlow"
@@ -1226,6 +1305,7 @@
       }
     },
     {
+      "id": "tZED9y65LW",
       "content": {
         "title": {
           "value": "Beyond Equality: Inequality-Constrained Flow Matching for Physically Admissible Solutions"
@@ -1240,6 +1320,7 @@
       }
     },
     {
+      "id": "xr5xIic0Ei",
       "content": {
         "title": {
           "value": "What Do Lorentz-Equivariant Jet Taggers Learn?"
@@ -1254,6 +1335,7 @@
       }
     },
     {
+      "id": "B1tPYMXQ76",
       "content": {
         "title": {
           "value": "Advancing and Evaluating AI Agent for Frontier Physics Research"
@@ -1292,6 +1374,7 @@
       }
     },
     {
+      "id": "jonYN1gCsu",
       "content": {
         "title": {
           "value": "GUINEAGRAD: A Differentiable Beam-Beam Interaction Simulator for Gradient-Based Collider Optimization"
@@ -1304,6 +1387,7 @@
       }
     },
     {
+      "id": "eHSiINhFoo",
       "content": {
         "title": {
           "value": "Weight-Space Physics: Interpretable Hypernetworks for Lattice Quantum Field Theories"
@@ -1320,6 +1404,7 @@
       }
     },
     {
+      "id": "QTDa11VOKv",
       "content": {
         "title": {
           "value": "REACT: Physically and Chemically Consistent Reconstruction of Marine Active Tracers"
@@ -1340,6 +1425,7 @@
       }
     },
     {
+      "id": "GS0q2w3z8b",
       "content": {
         "title": {
           "value": "Predicting Precision: Equivariant Delta-learning and Uncertainty Quantification for High-Throughput DFT"
@@ -1355,6 +1441,7 @@
       }
     },
     {
+      "id": "3Ju0RzyUqU",
       "content": {
         "title": {
           "value": "FlowPDE: Understanding and Justifying Flow Matching in PDE Solving"
@@ -1375,6 +1462,7 @@
       }
     },
     {
+      "id": "ZMMiVPNSrN",
       "content": {
         "title": {
           "value": "Training Neural PDE Solvers with Partial Observations"
@@ -1390,6 +1478,7 @@
       }
     },
     {
+      "id": "kyFh90mTN6",
       "content": {
         "title": {
           "value": "Neural Schur Complement Operators for Coarse-to-Fine Neural Operator Transfer"
@@ -1402,6 +1491,7 @@
       }
     },
     {
+      "id": "iywEUhqGmH",
       "content": {
         "title": {
           "value": "SciKernelBench: Evaluating LLM Kernels for Higher-Order Autodiff and Scientific Residuals"
@@ -1423,6 +1513,7 @@
       }
     },
     {
+      "id": "DHa6Cj252v",
       "content": {
         "title": {
           "value": "SOLENO: One Scalar Potential, Zero Divergence — Overcoming the Accuracy–Solenoidality Trade‑off"
@@ -1437,6 +1528,7 @@
       }
     },
     {
+      "id": "8bhQTEwcNL",
       "content": {
         "title": {
           "value": "FactoryNet: A Large-Scale Dataset toward Industrial Time-Series Foundation Models"
@@ -1456,6 +1548,7 @@
       }
     },
     {
+      "id": "0TI01P3XfU",
       "content": {
         "title": {
           "value": "Quantum Mean-Field Games: Numerical Nash Equilibria via PDE-form HJB Learning"
@@ -1468,6 +1561,7 @@
       }
     },
     {
+      "id": "r2NSBJ4ip7",
       "content": {
         "title": {
           "value": "Geometry, Not Energy Surface, Drives the Neutral MLIP–DFT Gap in Atomistic Interaction Surrogates"
@@ -1484,6 +1578,7 @@
       }
     },
     {
+      "id": "DqmtUsPgnt",
       "content": {
         "title": {
           "value": "Interpretable Equivariant Marks for Contrastive Cosmological Inference"
@@ -1499,6 +1594,7 @@
       }
     },
     {
+      "id": "TR4M5zk68E",
       "content": {
         "title": {
           "value": "GEMS: Molecular Structure Identification via Geodesic Navigation of the Isomer Manifold"
@@ -1516,6 +1612,7 @@
       }
     },
     {
+      "id": "P0GiwDcTZ3",
       "content": {
         "title": {
           "value": "PIEFS: Physics-Informed Eigenfunction Features with Learnable Scaling"
@@ -1530,6 +1627,7 @@
       }
     },
     {
+      "id": "7rSGYMWyiG",
       "content": {
         "title": {
           "value": "Simulation-to-Real Learning for VLBI Jet Morphology Classification"
@@ -1543,6 +1641,7 @@
       }
     },
     {
+      "id": "gAUM8sqF5h",
       "content": {
         "title": {
           "value": "MPINeuralODE: Multiple-Initial-Condition Physics-Informed Neural ODEs for Globally Consistent Dynamical System Learning"

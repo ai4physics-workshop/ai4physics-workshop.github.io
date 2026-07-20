@@ -505,6 +505,7 @@
       <div class="container" data-aos="fade-up">
         <div class="section-header">
           <h2>Accepted Papers</h2>
+          <p>Click a paper title to read it on OpenReview.</p>
         </div>
 
         <div class="accepted-stats" style="background:#f8f9fa;border-left:4px solid #00008B;padding:16px 22px;margin-bottom:28px;border-radius:4px;">
@@ -742,13 +743,18 @@
             const title = item && item.content && item.content.title ? (item.content.title.value || 'Untitled') : 'Untitled';
             const authorsVal = item && item.content && item.content.authors ? item.content.authors.value : [];
             const authors = Array.isArray(authorsVal) ? authorsVal.join(', ') : (authorsVal || '');
+            const forumId = item && item.id ? item.id : '';
+            function linkify(text) {
+              if (!forumId) return text;
+              return '<a href="https://openreview.net/forum?id=' + forumId + '" target="_blank" rel="noopener noreferrer" style="color: #00356B;">' + text + '</a>';
+            }
             const li = document.createElement('li');
             if (title.includes('<br><i>')) {
               const parts = title.split('<br>');
               const awardText = parts.slice(1).join('<br>').replace(/<i>/g, '<i style="color: #B8860B;">');
-              li.innerHTML = '<b>' + parts[0] + '</b><br>' + awardText + '<br>' + authors;
+              li.innerHTML = '<b>' + linkify(parts[0]) + '</b><br>' + awardText + '<br>' + authors;
             } else {
-              li.innerHTML = '<b>' + title + '</b><br>' + authors;
+              li.innerHTML = '<b>' + linkify(title) + '</b><br>' + authors;
             }
             list.appendChild(li);
             list.appendChild(document.createElement('br'));
